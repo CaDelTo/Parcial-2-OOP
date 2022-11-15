@@ -1,0 +1,25 @@
+@startuml
+
+class Nodo{
+    data : str
+}
+class User(Nodo){
+    data : str
+    SeatPref : str
+    SeatsBuyed : list
+}
+
+class Seat(Nodo){
+    Position : str
+    State: str
+}
+
+class LinkedList:{
+    PTR : Object
+    ULT = Object
+
+}
+class Movie(LinkedList){
+    
+}
+@enduml
